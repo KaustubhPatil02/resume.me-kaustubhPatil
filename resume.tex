@@ -1,4 +1,4 @@
-==% -------------------------
+% ==% -------------------------
 % Resume in Latex
 % Author: Jake Gutierrez
 % Based off of: https://github.com/sb2nov/resume
@@ -29,7 +29,7 @@
 \input{glyphtounicode}
 
 \usepackage{xcolor}
-\hypersetup{colorlinks,urlcolor=blue}
+\hypersetup{colorlinks,urlcolor=black}
 
 
 % ----------FONT OPTIONS----------
@@ -77,7 +77,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-1pt}}
   }
 }
 
@@ -126,17 +126,19 @@
 \begin{document}
 
 
-% ----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
+
 
 \begin{center}
-    {\huge \scshape Kaustubh Patil} \\ \vspace{5pt}
+ {\huge \scshape Kaustubh Patil} \\ \vspace{5pt}
     \small
-    \href{https://devfolio.co/@kxpatil02}{devfolio.co} $|$ \href{https://github.com/kxpatil02}{github.com/kxpatil02} $|$ \href{https://www.linkedin.com/in/kaustubhpatil02/}{linkedin.com/in/kaustubhpatil02} $|$ \href{mailto:patilkaustubh990@gmail.com}{patilkaustubh990@gmail.com}
-    \vspace{-8pt}
+    \href{tel:+919834388054}{\faPhone \space +91 9834388054} $|$
+    \href{}{\faCalendar \space 29-09-2002} $|$
+    \href{https://kaustubhpatil.vercel.app/}{\faGlobe \space Portfolio} $|$
+    \href{https://github.com/KaustubhPatil02}{\faGithub \space GitHub} $|$
+    \href{https://www.linkedin.com/in/kaustubhpatil02/}{\faLinkedin \space LinkedIn } $|$
+    \href{mailto:kaustubhpatil880@gmail.com}{\faEnvelope \space Gmail} 
+    
+    \vspace{-10pt}
 \end{center}
 
 
@@ -144,8 +146,8 @@
 \section{Education}
     \resumeSubHeadingListStart
         \resumeSubheading
-            {University of Mumbai --  Universal College of Engineering}{May 2024}
-            {Bachelor of Engineering in Computer Engineering  (CGPA: 7.17  / 10.0)}{Mumbai, India}
+            {University of Mumbai --  Universal College of Engineering}{Jul 2024}
+            {Bachelor of Engineering in Computer Engineering  (CGPA: 7.57  / 10.0)}{Mumbai, India}
             \resumeItemListStart
                 \resumeItem{Courses:  Web development. DSA, Computer Networks, Network Security, Databases, Software Engineering}
             \resumeItemListEnd
@@ -163,13 +165,13 @@
 
 % -----------SKILLS-----------
 \section{Skills}
-    \vspace{-2pt}
+    \vspace{-5pt}
     \begin{itemize}[leftmargin=0.2in, label={}]
         {\item{
             \begin{tabular}{ l@{\hskip 0.2in} l }
-                 \textbf{Frontend}: ReactJs, NextJs, Html/Css, Js, TailwindCss, Sass & \textbf{Languages}: C++, Java, JavaScript \\ 
-                 \textbf{Version Control}: Git, GitHub & \textbf{Databases}: MySQL, Firebase \\  
-                 % \textbf{Web}: React.js, Express.js, HTML, CSS, JS & \textbf{Platforms}: GitHub, Firebase
+                 \textbf{Languages}: C++, Java, JavaScript  & 
+                 \textbf{Frontend}: ReactJs, Html/Css, Js, TailwindCss, Sass(scss)  \\ \textbf{Databases/ Back-end }: Firebase, MongoDb,                 NodeJs &
+                 \textbf{Version Control}: Git, GitHub \\
             \end{tabular}
         }}
     \end{itemize}
@@ -180,22 +182,19 @@
 \section{Experience}
     \resumeSubHeadingListStart
         \resumeSubheading
-            {OasisInfobyte}{June 2023 -- July 2023}
+            {OasisInfobyte}{Jun 2023 -- Jul 2023}
             {Web developmentand Desigining}
-            {Remote}
+            {Remote Internship}
             \resumeItemListStart
-                \resumeItem{Virtual Internship, developed and created various websites like temperature converter, personal portfolio and a landing page for certain agency.}
-                \resumeItem{Created using VITE + React and used SASS for easy development and good user experience.}
+                \resumeItem{Completed a virtual internship, building websites (e.g., temperature converter, personal portfolio, agency landing page) with VITE + React and SASS, ensuring streamlined development and optimal user experience.}
             \resumeItemListEnd
 
         \resumeSubheading
-            {ResponseNet Consultancy}{June 2020 -- Aug 2020}
-            {Intern Engineer | Flutter Developer}{Remote}
+            {ResponseNet Consultancy}{Jun 2020 -- Aug 2020}
+            {Intern Engineer | Flutter Developer}{Remote Internship}
             \resumeItemListStart
-                \resumeItem{Developed an Online Chat Bot and WhatsApp clone Applications using Flutter. Alongside the owner of the consultancy. Working in an office vibe, creating and developing visually appealing user UI.}
-                \resumeItem{Learned Java and Dart / flutter for Application Development.}
-                \resumeItem{Overhauled the obsolete legacy source code of two production applications, resulting in increased usability and reduced run time performance by 50\%}
-                
+                \resumeItem{Collaborated on developing an Online Chat Bot and WhatsApp clone applications using Flutter and Java.}
+                \resumeItem {Successful creating UI/UX, along side data transfer between chat. ie senders - receivers. }
             \resumeItemListEnd
     \resumeSubHeadingListEnd
 \vspace{-15pt}
@@ -205,48 +204,64 @@
 \section{Projects}
     \vspace{-6pt}
     \resumeSubHeadingListStart
-        \resumeProjectHeading
-            {\textbf{\normalsize{strayAid-Connect app}} $|$ \emph{VITE, ReactJs, TailwindCss} $|$ \href{https://stray-aid-connect.vercel.app/}{Web app}, \href{https://github.com/kxpatil02/strayAid-connect}{GitHub}}{Sept 2023 -- Present}
-            \resumeSubSubheading{Web-App (Chatrooms) for helping stray animals and aid them}{}
-            \resumeItemListStart
-                \resumeItem{Developing a webApp for connecting peoples for helping and aiding stray animals. It basically creates chat rooms based on particular areas and allows users to chat.}
-                \resumeItem{Self sustainable web appliaction, where users can donate and help other users for helping in aiding an stray's life.}
-                \resumeItem{Users can make this chatrooms based on particular areas only,thus avoiding creation of many chatrooms in an areas ie. for Mumbai only one chatroom etc.}
-                
-            \resumeItemListEnd
-        \vspace{-15pt}
 
-         \resumeProjectHeading
-            {\textbf{\normalsize{Let's Chat App}} $|$ \emph{ReactJs, Sass, Firebase} $|$ \href{https://lets-chat-app-steel.vercel.app/}{Web app}, \href{https://github.com/kxpatil02/lets-chat-app}{GitHub}}{May 2023 -- June 2023}
-            \resumeSubSubheading{Full stack Chat-Application}{}
-            \resumeItemListStart
-                \resumeItem{Developed and Deployed a full stack chat application, made with ReactJs and SASS, backend and database with firebase.}
-                \resumeItem{Deployed via Vercel}
-                % \resumeItem{Users can make this chatrooms based on particular areas only,thus avoiding creation of many chatrooms in an areas ie. for Mumbai only one chatroom etc.}                
-            \resumeItemListEnd
-        \vspace{-15pt}
-
-         \resumeProjectHeading
-            {\textbf{\normalsize{Personal Portfolio}} $|$ \emph{ReactJs, Sass, Firebase, VITE} $|$ \href{https://dev-portfolio-ten-xi.vercel.app/}{Web App},
-            \href{https://github.com/kxpatil02/PersonalPortfolio}{GitHub}
-            }{June 2023 -- July 2023}
-            \resumeSubSubheading{Portfolio for Developers}{}
-            \resumeItemListStart
-                \resumeItem{Created using VITE + React and used SASS for styling.}
-                \resumeItem{For showcasing a developer's skills and how to contact them, even hire the developer.}
-                % \resumeItem{Users can make this chatrooms based on particular areas only,thus avoiding creation of many chatrooms in an areas ie. for Mumbai only one chatroom etc.}                
-            \resumeItemListEnd
-        \vspace{-15pt}
-        
         \resumeProjectHeading
-            {\textbf{\normalsize{To-Do -- ContextAPI}} $|$ \emph{React.js. TailwindCss, ContextAPI} $|$ \href{https://github.com/kxpatil02/to-do--ContextAPI--Local}{Github} \href{}{}}{Present 2023}
-            \resumeItemListStart
-                \resumeItem{A to-do list manager Developing with V.I.T.E, ReactJs and TailwindCss using ContextAPI to store any to-do’s until the user deletes them.}
-            \resumeItemListEnd
+        {\textbf{\normalsize{LiveDocs}} $|$ \emph{NEXT.js, LiveBlocks, TailwindCSS} $|$ \href{https://livedocs-draf.vercel.app}{Web-App}, \href{https://github.com/KaustubhPatil02/livedocs}{GitHub}}{Aug 2024 -- Sep 2024}
+        \resumeSubSubheading{Live Collaborative Editor}{}
+        \resumeItemListStart
+            \resumeItem{Built a real-time collaborative editor using Next.js and Tailwind CSS, allowing multiple users to edit content simultaneously.}
+            \resumeItem{Integrated Liveblocks for seamless real-time collaboration with instant updates across users.}
+        \resumeItemListEnd
+
+    \vspace{-15pt}
+
+    \resumeProjectHeading
+        {\textbf{\normalsize{WriteWise-Blog}} $|$ \emph{React.js, TailwindCss, Firebase} $|$ \href{https://write-wise-blog.vercel.app/}{Web-App}, \href{https://github.com/KaustubhPatil02/WriteWise-blog}{Github}}{Mar 2024 -- Apr 2024}
+        \resumeSubSubheading{A full stack web-app with (C.U.R.D) functionalities}{}
+        \resumeItemListStart
+            \resumeItem{Developed a modern React.js app with Tailwind CSS for UI and Firebase for authentication and data storage.}
+            \resumeItem{Implemented features like post creation, user profiles, and authentication with Firebase for scalability and security.}
+        \resumeItemListEnd
+
+    \vspace{-15pt}
+
+    \resumeProjectHeading
+        {\textbf{\normalsize{Parking-Nayak}} $|$ \emph{Flutter Dart, Twilio, Cloud Function, Firebase, JS} $|$ \href{https://github.com/KaustubhPatil02/ParkingNayak-FlutterApp}{GitHub}}{Jan 2024}
+        \resumeSubSubheading{A cross-platform (Android and iOS) application for real-time notifications on two-wheeler towing, ensuring prompt citizen awareness.}{}
+        \resumeItemListStart
+            \resumeItem{Developed and Implemented an innovative Android and iOS app notifying citizens of towed two-wheelers, integrating cloud-based SMS functionality for effective communication.}
+            \resumeItem{Demonstrated proficiency in cloud computing and user engagement for RTO officers, showcasing tailored solutions.}
+        \resumeItemListEnd
+
+    \vspace{-15pt}
+
+    \resumeProjectHeading
+        {\textbf{\normalsize{StrayAid-Connect}} $|$ \emph{VITE, ReactJs, TailwindCss} $|$ \href{https://stray-aid-connect.vercel.app/}{Web-App}, \href{https://github.com/kxpatil02/strayAid-connect}{GitHub}}{Sep 2023 -- Apr 2024}
+        \resumeSubSubheading{Web-App (Chatrooms) for helping stray animals and to aid them}{}
+        \resumeItemListStart
+            \resumeItem{The Web-Application facilitates localized chatrooms to connect users aiding stray animals, promoting efficient communication within specific areas.}
+            \resumeItem{Ensures self-sustainability through user donations, fostering a community-driven platform where users can support and collaborate to improve the lives of strays.}
+        \resumeItemListEnd
+
+    
+
+    \vspace{-9pt}
+
+    % \resumeProjectHeading
+    %     {\textbf{\normalsize{Let's Chat App}} $|$ \emph{ReactJs, Sass, Firebase} $|$ \href{https://lets-chat-app-steel.vercel.app/}{Web-App}, \href{https://github.com/kxpatil02/lets-chat-app}{GitHub}}{May 2023 -- Jun 2023}
+    %     \resumeSubSubheading{Full stack Chat-Application}{}
+    %     \resumeItemListStart
+    %         \resumeItem{Created and deployed a full-stack chat application using ReactJS and SASS for the frontend, and Firebase for the backend and database. Successfully launched the application via Vercel.}
+    %     \resumeItemListEnd
+
+    % \vspace{-9pt}
+
     \resumeSubHeadingListEnd
-\vspace{-15pt}
 
-\section{Certifications }
+
+ \section{Certifications }
+ 
+    \vspace{-2pt}
 \begin{tabular}{ l@{\hskip 0.2in} l }
 
 \href{https://drive.google.com/file/d/11pGs5y2j46vMG0kOUQ6OzyGrhtu6QgUQ/view?usp=drive_link}{Google's Associate Cloud Engineer Track} \\
@@ -256,15 +271,29 @@
     
 % -----------EXTRACURRICULAR ACTIVITY-----------
 \section{Extracurricular Activity}
-          \resumeSubheading
-            {\textbf{\normalsize{Active NSS Volunteer }}}{Aug 2022 -- present}
-            {NSS Student Coordinator -- 2022 - 23}{}
-            % \resumeItemListStart
-            %     \resumeItem{Started a Tech-loving open-to-all community with 500+ current members.}
-            %     \resumeItem{Hosted 800+ hours of weekly \href{https://catchup.ourtech.community}{OTC CatchUp} sessions involving technical discussions, project showcases and talks.}
-            % \resumeItemListEnd
-    \resumeSubHeadingListEnd
+    \vspace{1pt}
+    \resumeSubHeadingListStart
+
+ \resumeSubheading
+        {\textbf{\normalsize{M-Indicator's Android Hackathon}}}{Jan 2024}
+        {VJTI's Technical fest - Technovanza}{}
+        \resumeItemListStart
+            \resumeItem{Participated in a 24-hour invitation-only hackathon.}
+            \resumeItem{Developed and deployed an application using cloud functions, detailed in the projects section(Parking-Nayak).}
+        \resumeItemListEnd
+
     
 
+    \vspace{-5pt}
+
+   \resumeSubheading
+        {\textbf{\normalsize{NSS Core Team Member}}}{Aug 2022 -- May 2024}
+        {Universal College of Engineering}{}
+        \resumeItemListStart
+            \resumeItem{Participated in cleanliness drives, health camps, awareness campaigns, and volunteering for social causes.}
+        \resumeItemListEnd
+    \vspace{-10pt}
+
+    \resumeSubHeadingListEnd
 
 \end{document}
